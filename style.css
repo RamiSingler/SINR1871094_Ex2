@@ -1,0 +1,35 @@
+.interface {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 48px;
+}
+
+.nom {
+    position: absolute;
+    font-size: 48px;
+    top: 0;
+    right: 48px;
+    color: blue;
+}
+
+.titre--chat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+    img {
+        height: 600px;
+        width: 600px;
+        object-fit: cover;
+    }
+
+    h1 {
+        font-size: 96px;
+        font-weight: 900;
+    }
+}
